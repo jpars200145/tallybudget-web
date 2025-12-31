@@ -586,9 +586,20 @@ export default function PrivacyPage() {
                 </a>
                 , or write to us at:
               </p>
-              <p>
-                {/* TODO: Add your mailing address here */}
-              </p>
+              
+                <p className="text-sm text-gray-800">
+  <span className="block font-medium text-gray-900">
+    Tally Budget LLC
+  </span>
+  <span className="block">
+    801 W Verona Avenue, STE B #114
+  </span>
+  <span className="block">
+    Verona, WI 53593
+  </span>
+</p>
+
+              
             </section>
           </article>
         </div>
