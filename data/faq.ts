@@ -43,14 +43,35 @@ export const faqCategories: FAQCategory[] = [
     ],
   },
   {
-    id: "privacy",
-    title: "Privacy & Security",
-    faqs: [
-      {
-        question: "Does Tally sell or share my data?",
-        answer:
-          "No. Tally never sells or shares your financial data. Cloud sync is encrypted and tied directly to your user account.",
-      },
-    ],
-  },
+  id: "privacy",
+  title: "Privacy & Security",
+  faqs: [
+    {
+      question: "Does Tally sell or share my data?",
+      answer:
+        "No. Tally never sells or shares your financial data. Your information is yours, and it stays private.",
+    },
+    {
+      question: "Does Tally track my activity or usage?",
+      answer:
+        "No. Tally does not track your usage or behavior. We don’t collect analytics or monitor how you use the app.",
+    },
+    {
+      question: "Where is my data stored?",
+      answer:
+        "By default, all of your data is stored locally on your device. Nothing is uploaded or shared unless you choose to enable cloud backup.",
+    },
+    {
+      question: "How does cloud sync work?",
+      answer:
+        "Cloud backup is optional and designed for users who want to sync their data across devices. When enabled, your data is encrypted and securely tied to your account.",
+    },
+    {
+      question: "Will Tally add tracking in the future?",
+      answer:
+        "If analytics are ever introduced, they will be optional and opt-in. You’ll always be in control of what data is shared, and why.",
+    },
+  ],
+}
+
 ];
