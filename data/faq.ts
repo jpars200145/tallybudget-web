@@ -15,9 +15,9 @@ export const faqCategories: FAQCategory[] = [
     title: "Billing & Subscription",
     faqs: [
       {
-        question: "How does Tally Premium billing work?",
+        question: "How does Tally Premium billing work on Android?",
         answer:
-          "Tally Premium is billed monthly through the Stripe. You can cancel anytime through the manage subscription button in the account settings screen. Your premium access will remain through the end of the billing period.",
+          "Tally Premium is billed through Google Play. You can cancel anytime through the manage subscription button in the account settings screen. Your premium access will remain through the end of the billing period.",
       },
       {
         question: "What happens if my payment fails?",
