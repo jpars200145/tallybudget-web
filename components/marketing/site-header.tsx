@@ -106,14 +106,7 @@ export function SiteHeader() {
           {/* Desktop actions */}
           <div className="hidden items-center gap-3 md:flex">
             <Link
-              href="/login"
-              className="text-sm font-medium text-gray-700 hover:text-gray-900"
-            >
-              Log in
-            </Link>
-            <Link
-              href="#download"
-              scroll
+              href="/get-the-app"
               className={`rounded-full px-4 py-2 text-sm font-semibold text-white shadow-sm ${primaryBg} hover:opacity-90`}
             >
               Get app
@@ -154,15 +147,7 @@ export function SiteHeader() {
             <div className="my-1 h-px bg-gray-200" />
 
             <Link
-              href="/login"
-              onClick={() => setOpen(false)}
-              className="rounded-md px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-            >
-              Log in
-            </Link>
-            <Link
-              href="#download"
-              scroll
+              href="/get-the-app"
               onClick={() => setOpen(false)}
               className={`mt-1 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-white shadow-sm ${primaryBg} hover:opacity-90`}
             >
