@@ -134,14 +134,11 @@ const FEATURES: Omit<FeatureSectionProps, "imageOnRight">[] = [
   },
   {
     id: "imports",
-    title: "Receipt scanning & statement import",
+    title: "Receipt scanning",
     body: "Tally saves you time by helping you capture key details automatically, so you can log transactions faster and stay consistent.",
     bullets: (
       <>
         <FeatureBullet>Receipt scanning with OCR</FeatureBullet>
-        <FeatureBullet>
-          Import statements and convert them into categorized transactions
-        </FeatureBullet>
       </>
     ),
     media: {
