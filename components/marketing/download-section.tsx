@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { IosWaitlistButton } from "@/components/IosWaitlistButton";
 
 export function DownloadSection() {
   return (
-    <section id ="download" className="bg-white py-16 border-b border-gray-100">
+    <section id="download" className="bg-white py-16 border-b border-gray-100">
       <div className="mx-auto max-w-6xl px-4 text-center">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900 md:text-3xl">
           Download Tally Budget
@@ -13,7 +14,7 @@ export function DownloadSection() {
           and always know your remaining monthly budget.
         </p>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 flex justify-center items-center">
           <Link
             href="https://play.google.com/store/apps/details?id=YOUR_APP_ID"
             target="_blank"
@@ -28,6 +29,8 @@ export function DownloadSection() {
               priority
             />
           </Link>
+
+          <IosWaitlistButton />
         </div>
 
         <p className="mt-4 text-xs text-gray-500">
