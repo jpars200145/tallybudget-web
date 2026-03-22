@@ -67,7 +67,7 @@ function QrCode({ url }: { url: string }) {
 export default function GetTheAppPage() {
   // TODO: Replace with your real Play Store URL
   const playUrl =
-    "https://play.google.com/store/apps/details?id=YOUR_APP_ID";
+    "https://play.google.com/store/apps/details?id=com.tallybudget.app";
 
   const iosComingSoon = true;
 
