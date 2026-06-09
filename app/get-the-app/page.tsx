@@ -65,9 +65,8 @@ function QrCode({ url }: { url: string }) {
 }
 
 export default function GetTheAppPage() {
-  // TODO: Replace with your real Play Store URL
-  const playUrl =
-    "https://play.google.com/store/apps/details?id=com.tallybudget.app";
+  const playUrl = "/go/play-store";
+  const sharePlayUrl = "https://www.tallybudget.com/go/play-store";
 
   const iosComingSoon = true;
 
@@ -121,7 +120,7 @@ export default function GetTheAppPage() {
                 <button
                   type="button"
                   onClick={async () => {
-                    const ok = await copyToClipboard(playUrl);
+                    const ok = await copyToClipboard(sharePlayUrl);
                     setCopied(ok);
                     setTimeout(() => setCopied(false), 1800);
                   }}
@@ -140,7 +139,7 @@ export default function GetTheAppPage() {
                   "On desktop? Use the badge or scan the QR code below."}
               </p>
 
-              {platform === "desktop" && <QrCode url={playUrl} />}
+              {platform === "desktop" && <QrCode url={sharePlayUrl} />}
 
               <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50 p-4">
                 <h2 className="text-sm font-semibold text-gray-900">

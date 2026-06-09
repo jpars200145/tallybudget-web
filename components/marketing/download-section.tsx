@@ -16,7 +16,7 @@ export function DownloadSection() {
 
         <div className="mt-8 flex justify-center items-center">
           <Link
-            href="https://play.google.com/store/apps/details?id=com.tallybudget.app"
+            href="/go/play-store"
             target="_blank"
             rel="noopener noreferrer"
             className="transition hover:opacity-90"
